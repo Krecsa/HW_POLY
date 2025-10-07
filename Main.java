@@ -25,7 +25,7 @@ public class Main {
 
         Company company3 = new Company("ООО Кофе", new TaxEarnings());
         int profit = company3.applyDeals(deals);
-        System.out.println("Разница доходов и расходов до налогов: " + profit + " руб.");
+        System.out.println("Разница доходов и расходов до уплаты налогов: " + profit + " руб.");
     }
 }
 
